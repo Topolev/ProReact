@@ -5,7 +5,7 @@
   "author": "Cássio Zen",
   "license": "ISC",
   "scripts": {
-    "start": "webpack-dev-server --progress --port 3000",
+    "start": "webpack-dev-server --progress --port 4000",
     "build": "NODE_ENV=production node_modules/.bin/webpack -p --progress --colors"
   },
   "devDependencies": {
@@ -17,6 +17,7 @@
     "webpack-dev-server": "~1.14.*"
   },
   "dependencies": {
+    "marked": "^0.3.6",
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
   }
